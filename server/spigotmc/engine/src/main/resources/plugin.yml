@@ -1,0 +1,6 @@
+name: MCEngineSkill
+version: ${version}
+main: io.github.mcengine.spigotmc.skill.engine.MCEngineSkillSpigotMC
+author: MCEngine
+description: MCEngine Skill
+api-version: 1.13
