@@ -2,7 +2,6 @@ package io.github.mcengine.papermc.skill.engine;
 
 import io.github.mcengine.api.core.MCEngineCoreApi;
 import io.github.mcengine.api.core.Metrics;
-import io.github.mcengine.common.skill.MCEngineSkillCommon;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -25,8 +24,6 @@ public class MCEngineSkillPaperMC extends JavaPlugin {
             getServer().getPluginManager().disablePlugin(this);
             return;
         }
-
-        MCEngineSkillCommon api = new MCEngineSkillCommon(this);
 
         // Load extensions
         MCEngineCoreApi.loadExtensions(
